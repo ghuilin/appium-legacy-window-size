@@ -1,0 +1,26 @@
+{
+  "name": "appium-legacy-window-size",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Appium plugin to map getWindowRect->getWindowSize for compatibility",
+  "author": "huilin.guo <huilin_guo@126.com>",
+  "license": "MIT",
+  "keywords": [
+    "appium",
+    "plugin",
+    "legacy",
+    "window-size"
+  ],
+  "type": "commonjs",
+  "appium": {
+    "plugin": {
+      "name": "legacy-window-size",
+      "mainClass": "LegacyWindowSizePlugin"
+    },
+    "pluginName": "legacy-window-size",
+    "mainClass": "LegacyWindowSizePlugin"
+  },
+  "peerDependencies": {
+    "appium": "^2.12.1"
+  }
+}
